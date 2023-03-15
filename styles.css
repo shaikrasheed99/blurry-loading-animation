@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    position: relative;
+}
+
+img {
+    width: 95%;
+    height: 95%;
+    filter: blur(0px);
+}
+
+span {
+    color: #fafafa;
+    font-size: 10vw;
+    position: absolute;
+    top: 70%;
+}
